@@ -17,7 +17,7 @@ void setup() {
     status = WiFi.begin(ssid, pass);
     delay(10000);
   } 
-  server.begin();                           // start the web server on port 80
+  server.begin();                           // start the web server on port 70
 }
  
  
